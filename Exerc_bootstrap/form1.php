@@ -13,13 +13,13 @@
 <div class="row inline-row mb-3"><div class="col-md-6">
               <label for="prim_nome" class="form-label">Primeiro Nome</label>
               <input type="text" id="prim_nome" name="prim_nome" class="form-control" required="">
-            </div><div class="col-md-6">
+            </div><div class="col-md-3">
               <label for="ult_nome" class="form-label">Ultimo Nome</label>
               <input type="text" id="ult_nome" name="ult_nome" class="form-control" required="">
-            </div><div class="col-md-6">
+            </div><div class="col-md-3">
               <label for="username" class="form-label">Username</label>
               <input type="text" id="username" name="username" class="form-control" required="">
-            </div></div><div class="mb-3">
+            </div></div><div class="col-mb-3">
               <label for="cidade" class="form-label">Cidade</label>
               <input type="text" id="cidade" name="cidade" class="form-control" required="">
             </div><div class="row inline-row mb-3"><div class="col-md-6">
