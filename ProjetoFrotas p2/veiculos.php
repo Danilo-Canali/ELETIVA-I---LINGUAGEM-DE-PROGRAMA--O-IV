@@ -60,7 +60,7 @@
             <td><?= $d['tipo_nome'] ?></td>
             <td class="d-flex gap-2 no-print">
                 <a href="editar_veiculo.php?id=<?= $d['id'] ?>" class="btn btn-sm btn-warning">Editar</a>
-                <a href="consultar_veiculo.php?id=<?= $d['id'] ?>" class="btn btn-sm btn-info">Consultar</a>
+                <a href="consultar_veiculo.php?id=<?= $d['id'] ?>" class="btn btn-sm btn-info">Excluir</a>
             </td>
         </tr>
         <?php
