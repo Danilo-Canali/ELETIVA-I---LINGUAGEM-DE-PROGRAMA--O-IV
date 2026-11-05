@@ -129,8 +129,10 @@
         datasets: [{
             label: 'Viagens Realizadas',
             data: dataViagens,
-            borderColor: 'rgb(75, 192, 192)',
-            tension: 0.1
+            borderColor: '#f97316',
+            backgroundColor: 'rgba(249, 115, 22, 0.15)',
+            fill: true,
+            tension: 0.3
         }]
     };
     
@@ -157,11 +159,11 @@
             label: 'Uso de Veículos',
             data: dataVeiculos,
             backgroundColor: [
-                'rgb(255, 99, 132)',
-                'rgb(54, 162, 235)',
-                'rgb(255, 205, 86)',
-                'rgb(75, 192, 192)',
-                'rgb(153, 102, 255)'
+                '#f97316',
+                '#1b2740',
+                '#fbbf24',
+                '#0ea5e9',
+                '#64748b'
             ],
             hoverOffset: 4
         }]

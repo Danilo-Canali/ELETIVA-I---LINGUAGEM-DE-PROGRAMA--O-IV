@@ -28,17 +28,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Login</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <style>
-    body {
-      background-color: #f0f2f5;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-  </style>
+  <link href="estilo.css" rel="stylesheet">
 </head>
-<body>
+<body class="login">
 
   <div class="container">
     <div class="row justify-content-center">
