@@ -22,7 +22,7 @@
     }
     if (isset($_GET['excluir']) && $_GET['excluir']){
         echo "<p class='text-success'>Registro excluído!</p>";
-    } else if (isset($_GET['cadastro']) && !$_GET['cadastro']){
+    } else if (isset($_GET['excluir']) && !$_GET['excluir']){
         echo "<p class='text-danger'>Erro ao excluir!</p>";
     }
 ?>
